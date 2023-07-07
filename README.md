@@ -22,7 +22,7 @@ Substitua o [nomecontainer] pelo que fizer mais sentido para você e o [nomeimag
 
 Os endpoints da API estão descritos abaixo.
 
-## Criar usuário
+## 1. Criar usuário
 
 ### Request
 
@@ -56,7 +56,7 @@ HTTP/1.1 400 BAD REQUEST
         "erro": "Erro ao tentar cadastrar [erro]"
     }
 
-## Achar usuários
+## 2. Achar usuários
 
 ### Request
 
@@ -90,7 +90,7 @@ HTTP/1.1 400 BAD REQUEST
         "erro": "Ocorreu um erro durante o processamento da requisição [erro]"
     }
 
-## Achar usuário pelo id
+## 3. Achar usuário pelo id
 
 ### Request
 
@@ -123,7 +123,7 @@ HTTP/1.1 400 BAD REQUEST
         "erro": "Ocorreu um erro durante o processamento da requisição [erro]"
     }
 
-## Fazer login
+## 4. Fazer login
 
 ### Request
 
@@ -167,7 +167,7 @@ HTTP/1.1 400 BAD REQUEST
         "output": "Usuário ou senha incorretos"
     }
 
-## Mudar senha
+## 5. Mudar senha
 
 ### Request
 
